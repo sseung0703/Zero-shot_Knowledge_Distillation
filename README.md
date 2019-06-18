@@ -4,6 +4,20 @@ Note that it is not exactly the same as the author's algorithm due to a lack of 
 So I had to estimate some of the hyper-parameters and implemented detail.
 I got better results than the paper's in case of no augmentation. But I fail to increase performance by augmentation.
 
+## Abstract
+ZSKD is the knowledge distillation algorithm which not required real data. So they generate "Data Impression" samples which contain the teacher network's knowledge and train student network by it. It means that we don't have to care about privacy or safety. So the pros and cons I think are as follows.
+
+- Pros
+  - Simple but powerful algorithm.
+  - Data-free training algorithm
+
+- Cons
+  - Lack of experiments results of a large dataset such as ImageNet
+  - Only focused on a classification task
+  - The experiment set is not fair. they use augmentation for ZSKD only. So I think all of the rest performance can be increased.
+
+
+
 ## Requirements
 This code requires
 
