@@ -42,14 +42,12 @@ I tested all the things by running the autotrain. And all of the numerical value
 |   5|   -   |   -   |   88.43   |91.31|
 |   1|   -   |   -   |   70.02   |92.15|
 
-
-|<img src="concentrate.png" width="400">|
-|:-:|
-|Concentrate matrix of teacher network|
-
-|<img src="samples.png" width="600">|
-|:-:|
-|Expamples of the generated smaples|
-
-
+<p align="center">
+  <img src="concentrate.png" width="400"><br>
+  <b>Concentrate matrix of teacher network</b>
+</p>
+<p align="center">
+  <img src="samples.png" width="600"><br>
+  <b>Expamples of the generated smaples</b>  
+</p>
  
