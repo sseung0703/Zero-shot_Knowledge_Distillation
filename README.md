@@ -1,5 +1,5 @@
 # Zero-shot Knowledge Distillation
-This is the code for [Zero-shot Knowledge Distillation](https://arxiv.org/abs/1905.08114) which is accepted on ICLR2019 oral paper.
+This is the code for [Zero-shot Knowledge Distillation](https://arxiv.org/abs/1905.08114) which is accepted on ICML2019 oral paper.
 Note that it is not exactly the same as the author's algorithm due to a lack of detail in the paper.
 So I had to estimate some of the hyper-parameters and implemented detail.
 I got better results than the paper's in case of no augmentation. But I fail to increase performance by augmentation.
